@@ -8,8 +8,8 @@ namespace VCSservice
 {
     interface IVCSService
     {
-        string GetCommitInfo();
-        string GetUserInfo();
-        string GetRepoInfo();
+        public Commit GetCommitInfo();
+        public User GetUserInfo();
+        public Repo GetRepoInfo();
     }
 }
