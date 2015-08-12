@@ -48,6 +48,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repo.cs" />
     <Compile Include="User.cs" />
+    <Compile Include="VCSException.cs" />
     <Compile Include="VCSServiceFactory.cs" />
   </ItemGroup>
   <ItemGroup>
